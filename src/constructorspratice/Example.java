@@ -4,10 +4,16 @@ public class Example {
  int salary;
  String name;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-Example obj2= new Example();//default values
-System.out.println(obj2.name);
-System.out.println(obj2.salary);
+
+		
+//Example obj2= new Example();//default values
+//System.out.println(obj2.name);
+//System.out.println(obj2.salary);
+
+
+Example obj4= new Example(566,"hj");//default values
+System.out.println(obj4.name);
+System.out.println(obj4.salary);
 
 Example obj3 =new Example(3000,"hi");//custom values
 System.out.println(obj3.name);
@@ -15,12 +21,12 @@ System.out.println(obj3.salary);
 
 	}
 	//default constructor
-Example(){
-	this.salary=1000;
-	this.name="hjdj";
-}
+//public Example(){
+//	this.salary=1000;
+//	this.name="HIIIII";
+//}
 //Parameterized constructor
-Example(int salary,String name){
+public Example(int salary,String name){
 	this .salary=salary;
 	this.name=name;
 }

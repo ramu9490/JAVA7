@@ -1,6 +1,13 @@
 package datatype;
+//import java.util.Deque;
+//import java.util.Collections;
+//import java.util.Calendar;
 
 public class Pratice {
+
+
+	
+
 	public static void main(String[] args) {
 		
 		byte b= 98;
@@ -21,8 +28,8 @@ public class Pratice {
 		System.out.println(value2);
 		System.out.println(status);
 		System.out.println(e);
+	
 		
 		}
-
-
-}
+	
+	}

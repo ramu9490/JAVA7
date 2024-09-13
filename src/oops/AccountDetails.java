@@ -1,13 +1,14 @@
 package oops;
+import sep12.Pratice;
 
 //account details
 public class AccountDetails {
-    
+   
 	private long accountNumber;
 	private String accountHolder ;
 	private int balance ;
 
-	
+
 
 public String getName(String name) {
 	if(this.accountHolder == null)
